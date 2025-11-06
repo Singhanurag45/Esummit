@@ -1,0 +1,754 @@
+{
+  "schemes": [
+    {
+      "id": 1,
+      "name": {
+        "english": "PM Kisan Samman Nidhi",
+        "hindi": "पीएम किसान सम्मान निधि"
+      },
+      "description": {
+        "english": "Income support of ₹6,000 per year for farmer families",
+        "hindi": "किसान परिवारों के लिए ₹6,000 प्रति वर्ष की आय सहायता"
+      },
+      "eligibility": {
+        "occupation": ["farmer"],
+        "income": { "max": 100000 }
+      },
+      "link": "https://pmkisan.gov.in/",
+      "applicationProcess": {
+        "english": "Apply online through the PM-KISAN portal or visit your nearest Common Service Centre (CSC)",
+        "hindi": "पीएम-किसान पोर्टल के माध्यम से ऑनलाइन आवेदन करें या अपने निकटतम कॉमन सर्विस सेंटर (CSC) पर जाएं"
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Land Records",
+        "Bank Account Details"
+      ],
+      "aiAssistance": {
+        "documentHelp": true,
+        "applicationTracking": true,
+        "eligibilityPrediction": 95,
+        "similarSchemes": [2, 8]
+      }
+    },
+    {
+      "id": 11,
+      "name": {
+        "english": "Digital India Skill Development",
+        "hindi": "डिजिटल इंडिया कौशल विकास"
+      },
+      "description": {
+        "english": "Free digital skills training and certification for youth with job placement assistance",
+        "hindi": "युवाओं के लिए नौकरी प्लेसमेंट सहायता के साथ मुफ्त डिजिटल कौशल प्रशिक्षण और प्रमाणन"
+      },
+      "eligibility": {
+        "age": { "min": 18, "max": 35 },
+        "education": { "min": "10th pass" },
+        "income": { "max": 300000 }
+      },
+      "link": "https://digitalindia.gov.in/",
+      "applicationProcess": {
+        "english": "Apply online through the Digital India portal or visit your nearest Common Service Centre (CSC)",
+        "hindi": "डिजिटल इंडिया पोर्टल के माध्यम से ऑनलाइन आवेदन करें या अपने निकटतम कॉमन सर्विस सेंटर (CSC) पर जाएं"
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Education Certificate",
+        "Income Certificate",
+        "Passport Size Photograph"
+      ],
+      "aiAssistance": {
+        "documentHelp": true,
+        "applicationTracking": true,
+        "eligibilityPrediction": 98,
+        "personalizedLearningPath": true,
+        "jobMatchmaking": true,
+        "skillAssessment": true,
+        "similarSchemes": [10]
+      }
+    },
+    {
+      "id": 2,
+      "name": {
+        "english": "PM-KISAN Credit Card",
+        "hindi": "पीएम-किसान क्रेडिट कार्ड"
+      },
+      "description": {
+        "english": "Credit facility up to ₹3 lakh for farmers with minimal interest",
+        "hindi": "किसानों के लिए न्यूनतम ब्याज के साथ ₹3 लाख तक की क्रेडिट सुविधा"
+      },
+      "eligibility": {
+        "occupation": ["farmer"],
+        "age": { "min": 18 }
+      },
+      "link": "https://pmkisan.gov.in/kcc.aspx",
+      "applicationProcess": {
+        "english": "Apply at your nearest bank branch or through online banking portals",
+        "hindi": "अपनी निकटतम बैंक शाखा या ऑनलाइन बैंकिंग पोर्टल के माध्यम से आवेदन करें"
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Land Records",
+        "Bank Account Details",
+        "Passport Size Photograph"
+      ]
+    },
+    {
+      "id": 3,
+      "name": {
+        "english": "PM Ujjwala Yojana",
+        "hindi": "पीएम उज्ज्वला योजना"
+      },
+      "description": {
+        "english": "Free LPG connections to women from BPL households",
+        "hindi": "बीपीएल परिवारों की महिलाओं को मुफ्त एलपीजी कनेक्शन"
+      },
+      "eligibility": {
+        "gender": ["female"],
+        "income": { "max": 150000 }
+      },
+      "link": "https://pmuy.gov.in/",
+      "applicationProcess": {
+        "english": "Apply at your nearest LPG distributor or through the PMUY website",
+        "hindi": "अपने निकटतम एलपीजी वितरक या पीएमयूवाई वेबसाइट के माध्यम से आवेदन करें"
+      },
+      "documents": [
+        "Aadhaar Card",
+        "BPL Certificate",
+        "Bank Account Details",
+        "Passport Size Photograph"
+      ]
+    },
+    {
+      "id": 4,
+      "name": {
+        "english": "PM-JAY (Ayushman Bharat)",
+        "hindi": "पीएम-जेएवाई (आयुष्मान भारत)"
+      },
+      "description": {
+        "english": "Health insurance coverage of ₹5 lakh per family per year",
+        "hindi": "प्रति परिवार प्रति वर्ष ₹5 लाख का स्वास्थ्य बीमा कवरेज"
+      },
+      "eligibility": {
+        "income": { "max": 250000 }
+      },
+      "link": "https://pmjay.gov.in/",
+      "applicationProcess": {
+        "english": "Apply at Ayushman Bharat Kendra, Common Service Centres, or empanelled hospitals",
+        "hindi": "आयुष्मान भारत केंद्र, कॉमन सर्विस सेंटर, या सूचीबद्ध अस्पतालों में आवेदन करें"
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Ration Card",
+        "Income Certificate",
+        "Passport Size Photograph"
+      ]
+    },
+    {
+      "id": 5,
+      "name": {
+        "english": "National Pension Scheme",
+        "hindi": "राष्ट्रीय पेंशन योजना"
+      },
+      "description": {
+        "english": "Pension benefits for citizens after retirement",
+        "hindi": "सेवानिवृत्ति के बाद नागरिकों के लिए पेंशन लाभ"
+      },
+      "eligibility": {
+        "age": { "min": 18, "max": 60 }
+      },
+      "link": "https://www.npscra.nsdl.co.in/",
+      "applicationProcess": {
+        "english": "Apply through banks, post offices, or online through the NPS website",
+        "hindi": "बैंकों, डाकघरों के माध्यम से या एनपीएस वेबसाइट के माध्यम से ऑनलाइन आवेदन करें"
+      },
+      "documents": [
+        "Aadhaar Card",
+        "PAN Card",
+        "Bank Account Details",
+        "Passport Size Photograph"
+      ]
+    },
+    {
+      "id": 6,
+      "name": {
+        "english": "Pradhan Mantri Awas Yojana (PMAY)",
+        "hindi": "प्रधानमंत्री आवास योजना"
+      },
+      "description": {
+        "english": "Housing subsidy for affordable housing for the urban poor",
+        "hindi": "शहरी गरीबों के लिए किफायती आवास हेतु आवास सब्सिडी"
+      },
+      "eligibility": {
+        "income": { "max": 300000 },
+        "caste": ["SC", "ST", "OBC"]
+      },
+      "link": "https://pmaymis.gov.in/",
+      "applicationProcess": {
+        "english": "Apply through the PMAY website or visit your nearest municipal office",
+        "hindi": "पीएमएवाई वेबसाइट के माध्यम से या अपने निकटतम नगर निगम कार्यालय में जाकर आवेदन करें"
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Income Certificate",
+        "Caste Certificate",
+        "Property Documents",
+        "Bank Account Details"
+      ]
+    },
+    {
+      "id": 7,
+      "name": {
+        "english": "Sukanya Samriddhi Yojana",
+        "hindi": "सुकन्या समृद्धि योजना"
+      },
+      "description": {
+        "english": "Small savings scheme for girl child with high interest rate",
+        "hindi": "बालिकाओं के लिए उच्च ब्याज दर वाली छोटी बचत योजना"
+      },
+      "eligibility": {
+        "gender": ["female"],
+        "age": { "max": 10 }
+      },
+      "link": "https://www.indiapost.gov.in/Financial/Pages/Content/Sukanya-Samriddhi-Account.aspx",
+      "applicationProcess": {
+        "english": "Open an account at any post office or authorized banks",
+        "hindi": "किसी भी डाकघर या अधिकृत बैंकों में खाता खोलें"
+      },
+      "documents": [
+        "Birth Certificate of Girl Child",
+        "Aadhaar Card of Guardian",
+        "Passport Size Photograph of Girl Child",
+        "Address Proof"
+      ]
+    },
+    {
+      "id": 8,
+      "name": {
+        "english": "PM Mudra Yojana",
+        "hindi": "पीएम मुद्रा योजना"
+      },
+      "description": {
+        "english": "Loans up to ₹10 lakh for non-corporate, non-farm small/micro enterprises",
+        "hindi": "गैर-कॉर्पोरेट, गैर-कृषि छोटे/सूक्ष्म उद्यमों के लिए ₹10 लाख तक के ऋण"
+      },
+      "eligibility": {
+        "occupation": ["business"],
+        "income": { "max": 500000 }
+      },
+      "link": "https://www.mudra.org.in/",
+      "applicationProcess": {
+        "english": "Apply through any commercial bank, regional rural bank, or microfinance institution",
+        "hindi": "किसी भी वाणिज्यिक बैंक, क्षेत्रीय ग्रामीण बैंक, या माइक्रोफाइनेंस संस्थान के माध्यम से आवेदन करें"
+      },
+      "documents": [
+        "Aadhaar Card",
+        "PAN Card",
+        "Business Plan",
+        "Proof of Business",
+        "Bank Account Details"
+      ]
+    },
+    {
+      "id": 9,
+      "name": {
+        "english": "Atal Pension Yojana",
+        "hindi": "अटल पेंशन योजना"
+      },
+      "description": {
+        "english": "Pension scheme for unorganized sector workers",
+        "hindi": "असंगठित क्षेत्र के श्रमिकों के लिए पेंशन योजना"
+      },
+      "eligibility": {
+        "age": { "min": 18, "max": 40 },
+        "occupation": ["private employee", "unemployed", "other"]
+      },
+      "link": "https://www.npscra.nsdl.co.in/scheme-details.php",
+      "applicationProcess": {
+        "english": "Apply through banks or post offices",
+        "hindi": "बैंकों या डाकघरों के माध्यम से आवेदन करें"
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Bank Account Details",
+        "Mobile Number",
+        "Passport Size Photograph"
+      ]
+    },
+    {
+      "id": 10,
+      "name": {
+        "english": "National Scholarship Portal",
+        "hindi": "राष्ट्रीय छात्रवृत्ति पोर्टल"
+      },
+      "description": {
+        "english": "Various scholarships for students from minority communities and economically weaker sections",
+        "hindi": "अल्पसंख्यक समुदायों और आर्थिक रूप से कमजोर वर्गों के छात्रों के लिए विभिन्न छात्रवृत्तियां"
+      },
+      "eligibility": {
+        "occupation": ["student"],
+        "income": { "max": 250000 }
+      },
+      "link": "https://scholarships.gov.in/",
+      "applicationProcess": {
+        "english": "Apply online through the National Scholarship Portal",
+        "hindi": "राष्ट्रीय छात्रवृत्ति पोर्टल के माध्यम से ऑनलाइन आवेदन करें"
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Income Certificate",
+        "Caste Certificate (if applicable)",
+        "Previous Year Marksheet",
+        "Bank Account Details"
+      ],
+      "aiAssistance": {
+        "documentHelp": true,
+        "applicationTracking": true,
+        "eligibilityPrediction": 90,
+        "scholarshipMatching": true,
+        "deadlineReminders": true,
+        "applicationAssistant": true,
+        "similarSchemes": [11]
+      }
+    },
+    {
+      "id": 12,
+      "name": {
+        "english": "One Nation One Health Card",
+        "hindi": "एक राष्ट्र एक स्वास्थ्य कार्ड"
+      },
+      "description": {
+        "english": "Universal health coverage with digital health ID and integrated medical records",
+        "hindi": "डिजिटल स्वास्थ्य आईडी और एकीकृत चिकित्सा रिकॉर्ड के साथ सार्वभौमिक स्वास्थ्य कवरेज"
+      },
+      "eligibility": {
+        "age": { "min": 0 },
+        "residency": "Indian Citizen"
+      },
+      "link": "https://healthid.ndhm.gov.in/",
+      "applicationProcess": {
+        "english": "Apply online through the National Digital Health Mission portal or visit your nearest health center",
+        "hindi": "राष्ट्रीय डिजिटल स्वास्थ्य मिशन पोर्टल के माध्यम से ऑनलाइन आवेदन करें या अपने निकटतम स्वास्थ्य केंद्र पर जाएं"
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Mobile Number",
+        "Passport Size Photograph"
+      ],
+      "aiAssistance": {
+        "documentHelp": true,
+        "healthRecordManagement": true,
+        "medicineReminders": true,
+        "hospitalFinder": true,
+        "telemedicineIntegration": true,
+        "similarSchemes": [4]
+      }
+    }
+  ],
+  "locations": {
+    "states": [
+      {
+        "name": "Andhra Pradesh",
+        "districts": ["Anantapur", "Chittoor", "East Godavari", "Guntur", "Krishna", "Kurnool", "Prakasam", "Srikakulam", "Visakhapatnam", "Vizianagaram", "West Godavari", "YSR Kadapa"]
+      },
+      {
+        "name": "Arunachal Pradesh",
+        "districts": ["Anjaw", "Changlang", "Dibang Valley", "East Kameng", "East Siang", "Kamle", "Kra Daadi", "Kurung Kumey", "Lepa Rada", "Lohit", "Longding", "Lower Dibang Valley", "Lower Siang", "Lower Subansiri", "Namsai", "Pakke Kessang", "Papum Pare", "Shi Yomi", "Siang", "Tawang", "Tirap", "Upper Siang", "Upper Subansiri", "West Kameng", "West Siang"]
+      },
+      {
+        "name": "Assam",
+        "districts": ["Baksa", "Barpeta", "Biswanath", "Bongaigaon", "Cachar", "Charaideo", "Chirang", "Darrang", "Dhemaji", "Dhubri", "Dibrugarh", "Dima Hasao", "Goalpara", "Golaghat", "Hailakandi", "Hojai", "Jorhat", "Kamrup", "Kamrup Metropolitan", "Karbi Anglong", "Karimganj", "Kokrajhar", "Lakhimpur", "Majuli", "Morigaon", "Nagaon", "Nalbari", "Sivasagar", "Sonitpur", "South Salmara-Mankachar", "Tinsukia", "Udalguri", "West Karbi Anglong"]
+      },
+      {
+        "name": "Bihar",
+        "districts": ["Araria", "Arwal", "Aurangabad", "Banka", "Begusarai", "Bhagalpur", "Bhojpur", "Buxar", "Darbhanga", "East Champaran", "Gaya", "Gopalganj", "Jamui", "Jehanabad", "Kaimur", "Katihar", "Khagaria", "Kishanganj", "Lakhisarai", "Madhepura", "Madhubani", "Munger", "Muzaffarpur", "Nalanda", "Nawada", "Patna", "Purnia", "Rohtas", "Saharsa", "Samastipur", "Saran", "Sheikhpura", "Sheohar", "Sitamarhi", "Siwan", "Supaul", "Vaishali", "West Champaran"]
+      },
+      {
+        "name": "Chhattisgarh",
+        "districts": ["Balod", "Baloda Bazar", "Balrampur", "Bastar", "Bemetara", "Bijapur", "Bilaspur", "Dantewada", "Dhamtari", "Durg", "Gariaband", "Janjgir-Champa", "Jashpur", "Kabirdham", "Kanker", "Kondagaon", "Korba", "Koriya", "Mahasamund", "Mungeli", "Narayanpur", "Raigarh", "Raipur", "Rajnandgaon", "Sukma", "Surajpur", "Surguja"]
+      },
+      {
+        "name": "Delhi",
+        "districts": ["Central Delhi", "East Delhi", "New Delhi", "North Delhi", "North East Delhi", "North West Delhi", "Shahdara", "South Delhi", "South East Delhi", "South West Delhi", "West Delhi"]
+      },
+      {
+        "name": "Goa",
+        "districts": ["North Goa", "South Goa"]
+      },
+      {
+        "name": "Gujarat",
+        "districts": ["Ahmedabad", "Amreli", "Anand", "Aravalli", "Banaskantha", "Bharuch", "Bhavnagar", "Botad", "Chhota Udaipur", "Dahod", "Dang", "Devbhoomi Dwarka", "Gandhinagar", "Gir Somnath", "Jamnagar", "Junagadh", "Kheda", "Kutch", "Mahisagar", "Mehsana", "Morbi", "Narmada", "Navsari", "Panchmahal", "Patan", "Porbandar", "Rajkot", "Sabarkantha", "Surat", "Surendranagar", "Tapi", "Vadodara", "Valsad"]
+      },
+      {
+        "name": "Haryana",
+        "districts": ["Ambala", "Bhiwani", "Charkhi Dadri", "Faridabad", "Fatehabad", "Gurugram", "Hisar", "Jhajjar", "Jind", "Kaithal", "Karnal", "Kurukshetra", "Mahendragarh", "Nuh", "Palwal", "Panchkula", "Panipat", "Rewari", "Rohtak", "Sirsa", "Sonipat", "Yamunanagar"]
+      },
+      {
+        "name": "Himachal Pradesh",
+        "districts": ["Bilaspur", "Chamba", "Hamirpur", "Kangra", "Kinnaur", "Kullu", "Lahaul and Spiti", "Mandi", "Shimla", "Sirmaur", "Solan", "Una"]
+      },
+      {
+        "name": "Jharkhand",
+        "districts": ["Bokaro", "Chatra", "Deoghar", "Dhanbad", "Dumka", "East Singhbhum", "Garhwa", "Giridih", "Godda", "Gumla", "Hazaribagh", "Jamtara", "Khunti", "Koderma", "Latehar", "Lohardaga", "Pakur", "Palamu", "Ramgarh", "Ranchi", "Sahibganj", "Seraikela-Kharsawan", "Simdega", "West Singhbhum"]
+      },
+      {
+        "name": "Karnataka",
+        "districts": ["Bagalkot", "Ballari", "Belagavi", "Bengaluru Rural", "Bengaluru Urban", "Bidar", "Chamarajanagar", "Chikballapur", "Chikkamagaluru", "Chitradurga", "Dakshina Kannada", "Davangere", "Dharwad", "Gadag", "Hassan", "Haveri", "Kalaburagi", "Kodagu", "Kolar", "Koppal", "Mandya", "Mysuru", "Raichur", "Ramanagara", "Shivamogga", "Tumakuru", "Udupi", "Uttara Kannada", "Vijayapura", "Yadgir"]
+      },
+      {
+        "name": "Kerala",
+        "districts": ["Alappuzha", "Ernakulam", "Idukki", "Kannur", "Kasaragod", "Kollam", "Kottayam", "Kozhikode", "Malappuram", "Palakkad", "Pathanamthitta", "Thiruvananthapuram", "Thrissur", "Wayanad"]
+      },
+      {
+        "name": "Madhya Pradesh",
+        "districts": ["Agar Malwa", "Alirajpur", "Anuppur", "Ashoknagar", "Balaghat", "Barwani", "Betul", "Bhind", "Bhopal", "Burhanpur", "Chhatarpur", "Chhindwara", "Damoh", "Datia", "Dewas", "Dhar", "Dindori", "Guna", "Gwalior", "Harda", "Hoshangabad", "Indore", "Jabalpur", "Jhabua", "Katni", "Khandwa", "Khargone", "Mandla", "Mandsaur", "Morena", "Narsinghpur", "Neemuch", "Panna", "Raisen", "Rajgarh", "Ratlam", "Rewa", "Sagar", "Satna", "Sehore", "Seoni", "Shahdol", "Shajapur", "Sheopur", "Shivpuri", "Sidhi", "Singrauli", "Tikamgarh", "Ujjain", "Umaria", "Vidisha"]
+      },
+      {
+        "name": "Maharashtra",
+        "districts": ["Ahmednagar", "Akola", "Amravati", "Aurangabad", "Beed", "Bhandara", "Buldhana", "Chandrapur", "Dhule", "Gadchiroli", "Gondia", "Hingoli", "Jalgaon", "Jalna", "Kolhapur", "Latur", "Mumbai City", "Mumbai Suburban", "Nagpur", "Nanded", "Nandurbar", "Nashik", "Osmanabad", "Palghar", "Parbhani", "Pune", "Raigad", "Ratnagiri", "Sangli", "Satara", "Sindhudurg", "Solapur", "Thane", "Wardha", "Washim", "Yavatmal"]
+      },
+      {
+        "name": "Manipur",
+        "districts": ["Bishnupur", "Chandel", "Churachandpur", "Imphal East", "Imphal West", "Jiribam", "Kakching", "Kamjong", "Kangpokpi", "Noney", "Pherzawl", "Senapati", "Tamenglong", "Tengnoupal", "Thoubal", "Ukhrul"]
+      },
+      {
+        "name": "Meghalaya",
+        "districts": ["East Garo Hills", "East Jaintia Hills", "East Khasi Hills", "North Garo Hills", "Ri Bhoi", "South Garo Hills", "South West Garo Hills", "South West Khasi Hills", "West Garo Hills", "West Jaintia Hills", "West Khasi Hills"]
+      },
+      {
+        "name": "Mizoram",
+        "districts": ["Aizawl", "Champhai", "Hnahthial", "Khawzawl", "Kolasib", "Lawngtlai", "Lunglei", "Mamit", "Saiha", "Saitual", "Serchhip"]
+      },
+      {
+        "name": "Nagaland",
+        "districts": ["Dimapur", "Kiphire", "Kohima", "Longleng", "Mokokchung", "Mon", "Peren", "Phek", "Tuensang", "Wokha", "Zunheboto"]
+      },
+      {
+        "name": "Odisha",
+        "districts": ["Angul", "Balangir", "Balasore", "Bargarh", "Bhadrak", "Boudh", "Cuttack", "Deogarh", "Dhenkanal", "Gajapati", "Ganjam", "Jagatsinghpur", "Jajpur", "Jharsuguda", "Kalahandi", "Kandhamal", "Kendrapara", "Kendujhar", "Khordha", "Koraput", "Malkangiri", "Mayurbhanj", "Nabarangpur", "Nayagarh", "Nuapada", "Puri", "Rayagada", "Sambalpur", "Subarnapur", "Sundargarh"]
+      },
+      {
+        "name": "Punjab",
+        "districts": ["Amritsar", "Barnala", "Bathinda", "Faridkot", "Fatehgarh Sahib", "Fazilka", "Ferozepur", "Gurdaspur", "Hoshiarpur", "Jalandhar", "Kapurthala", "Ludhiana", "Mansa", "Moga", "Muktsar", "Pathankot", "Patiala", "Rupnagar", "Sahibzada Ajit Singh Nagar", "Sangrur", "Shahid Bhagat Singh Nagar", "Sri Muktsar Sahib", "Tarn Taran"]
+      },
+      {
+        "name": "Rajasthan",
+        "districts": ["Ajmer", "Alwar", "Banswara", "Baran", "Barmer", "Bharatpur", "Bhilwara", "Bikaner", "Bundi", "Chittorgarh", "Churu", "Dausa", "Dholpur", "Dungarpur", "Hanumangarh", "Jaipur", "Jaisalmer", "Jalore", "Jhalawar", "Jhunjhunu", "Jodhpur", "Karauli", "Kota", "Nagaur", "Pali", "Pratapgarh", "Rajsamand", "Sawai Madhopur", "Sikar", "Sirohi", "Sri Ganganagar", "Tonk", "Udaipur"]
+      },
+      {
+        "name": "Sikkim",
+        "districts": ["East Sikkim", "North Sikkim", "South Sikkim", "West Sikkim"]
+      },
+      {
+        "name": "Tamil Nadu",
+        "districts": ["Ariyalur", "Chengalpattu", "Chennai", "Coimbatore", "Cuddalore", "Dharmapuri", "Dindigul", "Erode", "Kallakurichi", "Kanchipuram", "Kanyakumari", "Karur", "Krishnagiri", "Madurai", "Mayiladuthurai", "Nagapattinam", "Namakkal", "Nilgiris", "Perambalur", "Pudukkottai", "Ramanathapuram", "Ranipet", "Salem", "Sivaganga", "Tenkasi", "Thanjavur", "Theni", "Thoothukudi", "Tiruchirappalli", "Tirunelveli", "Tirupathur", "Tiruppur", "Tiruvallur", "Tiruvannamalai", "Tiruvarur", "Vellore", "Viluppuram", "Virudhunagar"]
+      },
+      {
+        "name": "Telangana",
+        "districts": ["Adilabad", "Bhadradri Kothagudem", "Hyderabad", "Jagtial", "Jangaon", "Jayashankar Bhupalpally", "Jogulamba Gadwal", "Kamareddy", "Karimnagar", "Khammam", "Komaram Bheem Asifabad", "Mahabubabad", "Mahabubnagar", "Mancherial", "Medak", "Medchal–Malkajgiri", "Mulugu", "Nagarkurnool", "Nalgonda", "Narayanpet", "Nirmal", "Nizamabad", "Peddapalli", "Rajanna Sircilla", "Rangareddy", "Sangareddy", "Siddipet", "Suryapet", "Vikarabad", "Wanaparthy", "Warangal Rural", "Warangal Urban", "Yadadri Bhuvanagiri"]
+      },
+      {
+        "name": "Tripura",
+        "districts": ["Dhalai", "Gomati", "Khowai", "North Tripura", "Sepahijala", "South Tripura", "Unakoti", "West Tripura"]
+      },
+      {
+        "name": "Uttar Pradesh",
+        "districts": ["Agra", "Aligarh", "Ambedkar Nagar", "Amethi", "Amroha", "Auraiya", "Ayodhya", "Azamgarh", "Baghpat", "Bahraich", "Ballia", "Balrampur", "Banda", "Barabanki", "Bareilly", "Basti", "Bhadohi", "Bijnor", "Budaun", "Bulandshahr", "Chandauli", "Chitrakoot", "Deoria", "Etah", "Etawah", "Farrukhabad", "Fatehpur", "Firozabad", "Gautam Buddha Nagar", "Ghaziabad", "Ghazipur", "Gonda", "Gorakhpur", "Hamirpur", "Hapur", "Hardoi", "Hathras", "Jalaun", "Jaunpur", "Jhansi", "Kannauj", "Kanpur Dehat", "Kanpur Nagar", "Kasganj", "Kaushambi", "Kheri", "Kushinagar", "Lalitpur", "Lucknow", "Maharajganj", "Mahoba", "Mainpuri", "Mathura", "Mau", "Meerut", "Mirzapur", "Moradabad", "Muzaffarnagar", "Pilibhit", "Pratapgarh", "Prayagraj", "Raebareli", "Rampur", "Saharanpur", "Sambhal", "Sant Kabir Nagar", "Shahjahanpur", "Shamli", "Shravasti", "Siddharthnagar", "Sitapur", "Sonbhadra", "Sultanpur", "Unnao", "Varanasi"]
+      },
+      {
+        "name": "Uttarakhand",
+        "districts": ["Almora", "Bageshwar", "Chamoli", "Champawat", "Dehradun", "Haridwar", "Nainital", "Pauri Garhwal", "Pithoragarh", "Rudraprayag", "Tehri Garhwal", "Udham Singh Nagar", "Uttarkashi"]
+      },
+      {
+        "name": "West Bengal",
+        "districts": ["Alipurduar", "Bankura", "Birbhum", "Cooch Behar", "Dakshin Dinajpur", "Darjeeling", "Hooghly", "Howrah", "Jalpaiguri", "Jhargram", "Kalimpong", "Kolkata", "Malda", "Murshidabad", "Nadia", "North 24 Parganas", "Paschim Bardhaman", "Paschim Medinipur", "Purba Bardhaman", "Purba Medinipur", "Purulia", "South 24 Parganas", "Uttar Dinajpur"]
+      }
+    ]
+  },
+  "aiFeatures": {
+    "personalRecommendations": {
+      "enabled": true,
+      "description": {
+        "english": "AI-powered personalized scheme recommendations based on your profile and application history",
+        "hindi": "आपके प्रोफ़ाइल और आवेदन इतिहास के आधार पर AI-संचालित व्यक्तिगत योजना अनुशंसाएँ"
+      },
+      "parameters": ["age", "income", "occupation", "location", "family_size", "education"]
+    },
+    "eligibilityPrediction": {
+      "enabled": true,
+      "description": {
+        "english": "Smart prediction of your eligibility chances for schemes with incomplete criteria",
+        "hindi": "अपूर्ण मानदंडों वाली योजनाओं के लिए आपकी पात्रता संभावनाओं की स्मार्ट भविष्यवाणी"
+      },
+      "confidenceLevels": ["high", "medium", "low"]
+    },
+    "documentAssistance": {
+      "enabled": true,
+      "description": {
+        "english": "AI-powered document preparation assistance and verification",
+        "hindi": "AI-संचालित दस्तावेज़ तैयारी सहायता और सत्यापन"
+      },
+      "features": ["document_checklist", "document_verification", "auto_fill_suggestions"]
+    },
+    "schemeComparison": {
+      "enabled": true,
+      "description": {
+        "english": "Smart comparison of similar schemes to help you choose the best one",
+        "hindi": "सर्वोत्तम योजना चुनने में आपकी मदद के लिए समान योजनाओं का स्मार्ट तुलना"
+      },
+      "comparisonFactors": ["benefit_amount", "eligibility_complexity", "application_time", "approval_rate"]
+    },
+    "applicationTracking": {
+      "enabled": true,
+      "description": {
+        "english": "AI-powered status prediction and next steps for your scheme applications",
+        "hindi": "आपके योजना आवेदनों के लिए AI-संचालित स्थिति भविष्यवाणी और अगले चरण"
+      },
+      "trackingPoints": ["submitted", "under_review", "additional_info_needed", "approved", "rejected"]
+    }
+  },
+  "bookmarkFeatures": {
+    "enabled": true,
+    "collections": {
+      "enabled": true,
+      "defaultCollections": ["Saved", "Applied", "Interested"]
+    },
+    "sync": {
+      "enabled": true,
+      "devices": ["mobile", "desktop", "tablet"],
+      "autoSync": true
+    },
+    "notifications": {
+      "enabled": true,
+      "types": ["scheme_updates", "deadline_reminders", "eligibility_changes"]
+    },
+    "sharing": {
+      "enabled": true,
+      "channels": ["whatsapp", "email", "sms", "copy_link"]
+    }
+  },
+  "userPreferences": {
+    "bookmarks": {
+      "sampleData": [
+        {
+          "userId": "user123",
+          "savedSchemes": [1, 4, 11],
+          "collections": {
+            "Applied": [1],
+            "Interested": [4, 11],
+            "Education": [11],
+            "Health": [4]
+          },
+          "reminders": [
+            {
+              "schemeId": 1,
+              "date": "2023-12-31",
+              "message": "Last date to apply for PM Kisan Samman Nidhi"
+            }
+          ]
+        }
+      ]
+    },
+    "aiSettings": {
+      "personalizedRecommendations": true,
+      "documentAssistance": true,
+      "applicationTracking": true,
+      "notificationFrequency": "daily",
+      "languagePreference": "english"
+    },
+    "accessibility": {
+      "fontSize": "medium",
+      "highContrast": false,
+      "screenReader": false,
+      "reduceMotion": false
+    }
+  },
+  "translations": {
+    "english": {
+      "title": "Government Scheme Eligibility Assistant",
+      "subtitle": "Find welfare schemes you are eligible for",
+      "age": "Age",
+      "income": "Annual Income (₹)",
+      "occupation": "Occupation",
+      "caste": "Caste Category",
+      "gender": "Gender",
+      "state": "State",
+      "district": "District",
+      "select": "Select",
+      "checking": "Checking...",
+      "checkEligibility": "Check Eligibility",
+      "results": "Eligible Schemes",
+      "noSchemes": "No eligible schemes found",
+      "tryDifferentCriteria": "Try different criteria to find schemes you may be eligible for.",
+      "export": "Export Results",
+      "save": "Save",
+      "saveTooltip": "Save this scheme for later reference",
+      "saved": "Saved",
+      "back": "Back to Form",
+      "applicationProcess": "Application Process",
+      "requiredDocuments": "Required Documents",
+      "learnMore": "Learn More",
+      "helpline": "Helpline",
+      "contactUs": "Contact Us",
+      "faq": "Frequently Asked Questions",
+      "aboutUs": "About Us",
+      "home": "Home",
+      "quickLinks": "Quick Links",
+      "termsOfUse": "Terms of Use",
+      "privacyPolicy": "Privacy Policy",
+      "disclaimer": "Disclaimer: This is an eligibility checking tool only. Please visit the official website of each scheme for the most accurate and up-to-date information.",
+      "sitemap": "Sitemap",
+      "followUs": "Follow Us",
+      "copyright": "Government of India. All Rights Reserved.",
+      "lastUpdated": "Last Updated",
+      "formInstructions": "Fill in your details to find government schemes you're eligible for.",
+      "howItWorks": "How It Works",
+      "step1Title": "Enter Your Details",
+      "step1Description": "Fill in your personal information in the form.",
+      "step2Title": "Check Eligibility",
+      "step2Description": "Our system matches your profile with available schemes.",
+      "step3Title": "Get Results",
+      "step3Description": "View, export, or save your eligible schemes.",
+      "homeDescription": "Find government welfare schemes you're eligible for based on your profile.",
+      "aboutDescription": "The Government Scheme Eligibility Assistant is an initiative by the Government of India to help citizens discover welfare schemes they are eligible for.",
+      "aboutMission": "Our Mission",
+      "aboutMissionText": "To simplify access to government welfare schemes and ensure that every eligible citizen can benefit from them.",
+      "aboutVision": "Our Vision",
+      "aboutVisionText": "A future where every Indian citizen is aware of and can easily access the welfare schemes designed for their benefit.",
+      "aboutObjectives": "Our Objectives",
+      "faqTitle": "Frequently Asked Questions",
+      "faqDescription": "Find answers to common questions about government schemes and how to use this platform.",
+      "contactTitle": "Contact Us",
+      "contactDescription": "Have questions or feedback? Reach out to us through any of the channels below.",
+      "address": "Address",
+      "phoneNumber": "Phone Number",
+      "emailAddress": "Email Address",
+      "sendMessage": "Send Message",
+      "yourName": "Your Name",
+      "yourEmail": "Your Email",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Submit",
+      "aiAssistant": "AI Assistant",
+      "aiRecommendations": "Personalized Recommendations",
+      "eligibilityPrediction": "Smart Eligibility Prediction",
+      "documentAssistance": "Document Assistance",
+      "schemeComparison": "Scheme Comparison",
+      "applicationTracking": "Application Tracking",
+      "savedSchemes": "Saved Schemes",
+      "collections": "Collections",
+      "createCollection": "Create Collection",
+      "addToCollection": "Add to Collection",
+      "removeFromCollection": "Remove from Collection",
+      "shareScheme": "Share Scheme",
+      "notificationSettings": "Notification Settings",
+      "syncSettings": "Sync Settings",
+      "syncNow": "Sync Now",
+      "lastSynced": "Last Synced",
+      "compareSchemes": "Compare Schemes",
+      "similarSchemes": "Similar Schemes",
+      "bestMatch": "Best Match",
+      "documentChecklist": "Document Checklist",
+      "documentVerification": "Document Verification",
+      "autoFillSuggestions": "Auto-Fill Suggestions",
+      "trackApplication": "Track Application",
+      "applicationStatus": "Application Status",
+      "nextSteps": "Next Steps",
+      "deadlineReminder": "Deadline Reminder",
+      "setReminder": "Set Reminder"
+    },
+    "hindi": {
+      "title": "सरकारी योजना पात्रता सहायक",
+      "subtitle": "आप जिन कल्याणकारी योजनाओं के लिए पात्र हैं, उन्हें खोजें",
+      "age": "आयु",
+      "income": "वार्षिक आय (₹)",
+      "occupation": "व्यवसाय",
+      "caste": "जाति श्रेणी",
+      "gender": "लिंग",
+      "state": "राज्य",
+      "district": "जिला",
+      "select": "चुनें",
+      "checking": "जांच हो रही है...",
+      "checkEligibility": "पात्रता जांचें",
+      "results": "पात्र योजनाएं",
+      "noSchemes": "कोई पात्र योजना नहीं मिली",
+      "tryDifferentCriteria": "आप जिन योजनाओं के लिए पात्र हो सकते हैं, उन्हें खोजने के लिए अलग-अलग मानदंड आज़माएं।",
+      "export": "परिणाम निर्यात करें",
+      "save": "सहेजें",
+      "saveTooltip": "बाद में संदर्भ के लिए इस योजना को सहेजें",
+      "saved": "सहेजा गया",
+      "back": "फॉर्म पर वापस जाएं",
+      "applicationProcess": "आवेदन प्रक्रिया",
+      "requiredDocuments": "आवश्यक दस्तावेज",
+      "learnMore": "अधिक जानें",
+      "helpline": "हेल्पलाइन",
+      "contactUs": "संपर्क करें",
+      "faq": "अक्सर पूछे जाने वाले प्रश्न",
+      "aboutUs": "हमारे बारे में",
+      "home": "होम",
+      "quickLinks": "त्वरित लिंक",
+      "termsOfUse": "उपयोग की शर्तें",
+      "privacyPolicy": "गोपनीयता नीति",
+      "disclaimer": "अस्वीकरण: यह केवल एक पात्रता जांच उपकरण है। सबसे सटीक और अद्यतित जानकारी के लिए कृपया प्रत्येक योजना की आधिकारिक वेबसाइट देखें।",
+      "sitemap": "साइटमैप",
+      "followUs": "हमें फॉलो करें",
+      "copyright": "भारत सरकार। सर्वाधिकार सुरक्षित।",
+      "lastUpdated": "अंतिम अपडेट",
+      "formInstructions": "सरकारी योजनाओं को खोजने के लिए अपना विवरण भरें जिनके लिए आप पात्र हैं।",
+      "howItWorks": "यह कैसे काम करता है",
+      "step1Title": "अपना विवरण दर्ज करें",
+      "step1Description": "फॉर्म में अपनी व्यक्तिगत जानकारी भरें।",
+      "step2Title": "पात्रता जांचें",
+      "step2Description": "हमारी प्रणाली आपके प्रोफ़ाइल को उपलब्ध योजनाओं से मिलान करती है।",
+      "step3Title": "परिणाम प्राप्त करें",
+      "step3Description": "अपनी पात्र योजनाओं को देखें, निर्यात करें या सहेजें।",
+      "homeDescription": "अपने प्रोफ़ाइल के आधार पर आप जिन सरकारी कल्याणकारी योजनाओं के लिए पात्र हैं, उन्हें खोजें।",
+      "aboutDescription": "सरकारी योजना पात्रता सहायक भारत सरकार की एक पहल है जो नागरिकों को उन कल्याणकारी योजनाओं की खोज में मदद करती है जिनके लिए वे पात्र हैं।",
+      "aboutMission": "हमारा मिशन",
+      "aboutMissionText": "सरकारी कल्याणकारी योजनाओं तक पहुंच को सरल बनाना और यह सुनिश्चित करना कि हर पात्र नागरिक उनसे लाभ उठा सके।",
+      "aboutVision": "हमारा विजन",
+      "aboutVisionText": "एक ऐसा भविष्य जहां हर भारतीय नागरिक अपने लाभ के लिए डिज़ाइन की गई कल्याणकारी योजनाओं के बारे में जागरूक हो और उन तक आसानी से पहुंच सके।",
+      "aboutObjectives": "हमारे उद्देश्य",
+      "faqTitle": "अक्सर पूछे जाने वाले प्रश्न",
+      "faqDescription": "सरकारी योजनाओं और इस प्लेटफॉर्म का उपयोग करने के बारे में सामान्य प्रश्नों के उत्तर खोजें।",
+      "contactTitle": "संपर्क करें",
+      "contactDescription": "प्रश्न या प्रतिक्रिया है? नीचे दिए गए किसी भी माध्यम से हमसे संपर्क करें।",
+      "address": "पता",
+      "phoneNumber": "फोन नंबर",
+      "emailAddress": "ईमेल पता",
+      "sendMessage": "संदेश भेजें",
+      "yourName": "आपका नाम",
+      "yourEmail": "आपका ईमेल",
+      "subject": "विषय",
+      "message": "संदेश",
+      "submit": "सबमिट करें",
+      "aiAssistant": "AI सहायक",
+      "aiRecommendations": "व्यक्तिगत अनुशंसाएँ",
+      "eligibilityPrediction": "स्मार्ट पात्रता भविष्यवाणी",
+      "documentAssistance": "दस्तावेज़ सहायता",
+      "schemeComparison": "योजना तुलना",
+      "applicationTracking": "आवेदन ट्रैकिंग",
+      "savedSchemes": "सहेजी गई योजनाएं",
+      "collections": "संग्रह",
+      "createCollection": "संग्रह बनाएं",
+      "addToCollection": "संग्रह में जोड़ें",
+      "removeFromCollection": "संग्रह से हटाएं",
+      "shareScheme": "योजना साझा करें",
+      "notificationSettings": "अधिसूचना सेटिंग्स",
+      "syncSettings": "सिंक सेटिंग्स",
+      "syncNow": "अभी सिंक करें",
+      "lastSynced": "अंतिम सिंक",
+      "compareSchemes": "योजनाओं की तुलना करें",
+      "similarSchemes": "समान योजनाएं",
+      "bestMatch": "सर्वोत्तम मिलान",
+      "documentChecklist": "दस्तावेज़ चेकलिस्ट",
+      "documentVerification": "दस्तावेज़ सत्यापन",
+      "autoFillSuggestions": "ऑटो-फिल सुझाव",
+      "trackApplication": "आवेदन ट्रैक करें",
+      "applicationStatus": "आवेदन स्थिति",
+      "nextSteps": "अगले कदम",
+      "deadlineReminder": "समय सीमा रिमाइंडर",
+      "setReminder": "रिमाइंडर सेट करें"
+    }
+  }
+}
